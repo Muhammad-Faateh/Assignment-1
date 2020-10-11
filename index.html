@@ -9,11 +9,12 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-    <script src="https://use.fontawesome.com/fac1120328.js"></script>
+
     <link rel="stylesheet" href="./styles.css" />
+    <script src="https://kit.fontawesome.com/1ab2b4377a.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="container-fluid">
     <!-- navbar start -->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black">
         <!-- first column -->
@@ -26,7 +27,7 @@
         <!-- end of first column -->
 
         <!-- Second Column -->
-        <div class="col-md-5">
+        <div class="col-md-6">
             <div class="collapse navbar-collapse" style="justify-content: center" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
@@ -81,93 +82,283 @@
         <!-- end of second column -->
 
         <!-- third column -->
-        <div class="col-md-3" style="justify-content: right">
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                <button class="btn btn-light my-2 my-sm-0" type="submit">
-            <i class="fas fa-search"></i> Search
-          </button>
-            </form>
+        <div class="col-md-2 mt-2">
+            <ul id="menu">
+                <li>
+                    <button class="btn btn-dark" type="submit">
+              <i class="fas fa-search" style="color: white"></i>
+            </button>
+                </li>
+                <li>
+                    <button class="btn btn-dark" type="submit">
+              <i class="fas fa-shopping-cart" style="color: white;"></i>
+            </button>
+                </li>
+                <li><button class="btn btn-dark" type="submit"><i class="fas fa-user " style="color: white;"></i></button></li>
+            </ul>
         </div>
         <!-- end of third column -->
     </nav>
     <!-- navbar end -->
-    <div class="row first" id="first" style="background-color: #E8DAEF;">
-        <div class="col-md-6">
-            <h1 style="text-align: center">Furniture</h1>
-            <p>
-                Furniture creates your living space. We have searched the design collections on six continents to select the most unique pieces for you. Furniture with history and soul created by renowned designers. These pieces are not only functional but also play
-                on your sensitivity to beauty and art. Browse furniture that creates unique interiors.
+    <div class="my-2" id="back-img" style="background-image: url(./images/black4.jpg)">
+        <div style="height: 150px"></div>
+        <div>
+            <p style="font-family: Brush Script MT ; font-size: 40px;">
+                "Your Home is a mirror.It should reflect who you are"
+                <b style="color: black"> - AptDeco</b>
             </p>
         </div>
-        <div class="col-md-6">
-            <img src="./images/background2.jpg" alt="" />
+    </div>
+    <!-- furniture start -->
+    <div class="row">
+        <div class="col-md-12" style="background-color: #EDF5F3">
+            <div class="row first" id="first">
+                <div class="col-md-6">
+                    <h1 style="text-align: center">Furniture</h1>
+                    <p>
+                        Furniture creates your living space. We have searched the design collections on six continents to select the most unique pieces for you. Furniture with history and soul created by renowned designers. These pieces are not only functional but also play
+                        on your sensitivity to beauty and art. Browse furniture that creates unique interiors.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./images/gray1.jpg" alt="" />
+                </div>
+            </div>
+            <div class="row my-2">
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem">
+                        <img src="./images/furn1.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                            <a href="#" class="btn btn-dark"><i class="fas fa-shopping-cart" style="color: white;"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem">
+                        <img src="./images/furn1.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                            <a href="#" class="btn btn-dark"><i class="fas fa-shopping-cart" style="color: white;"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem">
+                        <img src="./images/furn4.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                            <a href="#" class="btn btn-dark"><i class="fas fa-shopping-cart" style="color: white;"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem">
+                        <img src="./images/furn4.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                            <a href="#" class="btn btn-dark"><i class="fas fa-shopping-cart" style="color: white;"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="row first" id="second" style="background-color: #E8DAEF;">
-        <div class="col-md-6">
-            <h1 style="text-align: center">Lighting</h1>
-            <p>
-                Light captured in sublime forms. Fascinating designs from visionaries, high quality materials and artisanal precision. Browse our unique collection of sophisticated lighting that creates an incomparable mood for your interiors.
-            </p>
-        </div>
-        <div class="col-md-6">
-            <img src="./images/background2.jpg" alt="" />
+    <!-- furniture end -->
+    <div style="height: 10px"></div>
+
+    <!-- Lighting Start -->
+    <div class="row">
+        <div class="col-md-12" style="background-color: #EDF5F3">
+            <div class="row first" id="first">
+                <div class="col-md-6">
+                    <h1 style="text-align: center">Lighting</h1>
+                    <p>
+                        Light captured in sublime forms. Fascinating designs from visionaries, high quality materials and artisanal precision. Browse our unique collection of sophisticated lighting that creates an incomparable mood for your interiors.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./images/background.jpg" alt="" />
+                </div>
+            </div>
+            <div class="row my-2">
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem">
+                        <img src="./images/light1.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                            <a href="#" class="btn btn-dark"><i class="fas fa-shopping-cart" style="color: white;"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem">
+                        <img src="./images/light1.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                            <a href="#" class="btn btn-dark"><i class="fas fa-shopping-cart" style="color: white;"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem">
+                        <img src="./images/light1.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                            <a href="#" class="btn btn-dark"><i class="fas fa-shopping-cart" style="color: white;"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem">
+                        <img src="./images/light1.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                            <a href="#" class="btn btn-dark"><i class="fas fa-shopping-cart" style="color: white;"></i> Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="row " id="third" style="background-color: #E8DAEF;">
+    <!-- lighting end -->
+    <!-- Decor start -->
+    <div class="row" id="third" style="background-color: #EDF5F3">
         <div class="col-md-12">
             <h1 style="text-align: center">Decor</h1>
-            <p style="text-align: center;">
-                Decorative objects at Your fingertips . Unique and original . Perfectly complement Y our space .
+            <p id="third-p" style="text-align: center">
+                Decorative objects at Your fingertips . Unique and original . Perfectly complement your space .
+            </p>
         </div>
+
         <div class="col-md-3">
-            <div class="card" style="width: 18rem;">
-                <img src="./images/background.jpg" class="card-img-top" alt="...">
+            <div class="card" style="width: 18rem">
+                <img src="./images/decor1.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <p class="card-text">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-dark"><i class="fas fa-shopping-cart" style="color: white;"></i> Add to Cart</a>
                 </div>
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card" style="width: 18rem;">
-                <img src="./images/background.jpg" class="card-img-top" alt="...">
+            <div class="card" style="width: 18rem">
+                <img src="./images/decor1.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <p class="card-text">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-dark"><i class="fas fa-shopping-cart" style="color: white;"></i> Add to Cart</a>
                 </div>
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card" style="width: 18rem;">
-                <img src="./images/background.jpg" class="card-img-top" alt="...">
+            <div class="card" style="width: 18rem">
+                <img src="./images/decor1.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <p class="card-text">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-dark"><i class="fas fa-shopping-cart" style="color: white;"></i> Add to Cart</a>
                 </div>
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card" style="width: 18rem;">
-                <img src="./images/background.jpg" class="card-img-top" alt="...">
+            <div class="card" style="width: 18rem">
+                <img src="./images/decor1.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <p class="card-text">
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-dark"><i class="fas fa-shopping-cart" style="color: white;"></i> Add to Cart</a>
                 </div>
             </div>
         </div>
     </div>
+    <!-- decor end -->
+    <!-- footer start -->
+    <div class="row my-2" style="background-color: black" id="footer">
+        <div class="col-md-6 my-2">
+            <h1 style="text-align: center; color: white">Help!</h1>
+            <ul style="list-style-type: none; align-items: center">
+                <li style="text-align: center">
+                    <a href="" style="color: white; text-decoration: none">Delivery</a>
+                </li>
+                <li style="text-align: center">
+                    <a href="" style="color: white; text-decoration: none">Secure Payment</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6 my-2">
+        <h1 style="text-align: center; color: white">Contact Us</h1>
+        <ul style="list-style-type: none">
+          <li style="color: white; text-align: center">Muhammad Faateh</li>
+          <li style="text-align: center">
+            <a href="" style="color: white; text-decoration: none"
+              >Mohammadfaateh@gmail.com</a
+            >
+          </li>
+          <li style="text-align: center">
+            <a href="" style="color: white; text-decoration: none"
+              >SP18-BSE-004</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-12">
+        <p style="text-align: center; color: white">
+            <i class="far fa-copyright"></i> 2020 By Design. All Rights Reserved
+        </p>
+      </div>
+    </div>
+    <!-- footer end -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
